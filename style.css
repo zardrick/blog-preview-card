@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    font-size: 16px;
+    font-family: 'Figtree', sans-serif;
+    color: #121212;
+    background: #f4d04e;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 501px;
+    max-width: 327px;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #fff;
+    box-shadow: 10px 10px #121212;
+}
+
+.illustration {
+    width: 100%;
+    max-width: 279px;
+    height: 200px;
+    border-radius: 10px;
+    background: url('./assets/images/illustration-article.svg');
+    background-size: cover;
+}
+
+.tag { 
+    padding: 5px 12px;
+    margin-top: 24px;
+    margin-bottom: 0;
+    font-size: 0.75rem;
+    font-weight: 800;
+    border-radius: 4px;
+    background: #f4d04e;
+}
+
+.publication-date {
+    font-size: 0.75rem;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.blog-title {
+    font-size: 1.25rem;
+    margin-top: 24px;
+    margin-bottom: 0;
+    transition: color 0.2s ease;
+}
+
+.blog-title:hover {
+    cursor: pointer;
+    color: #f4d04e;
+}
+
+.description {
+    font-size: 0.875rem;
+    line-height: 21px;
+    color: #6C6C6C;
+    margin-top: 16px;
+    margin-bottom: 0;
+}
+
+.blog-author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-top: 27px;
+}
+
+.author-image {
+    width: 32px;
+    height: 32px;
+}
+
+.author-name {
+    font-weight: 800;
+}
+
+@media (min-width: 1024px) {
+    .card {
+        max-width: 384px;
+        height: 522px;
+        padding: 2rem;
+    }
+
+    .illustration {
+        max-width: 336px;
+        height: 200px;
+    }
+
+    .tag {
+        padding: 6px 16px;
+    }
+}
