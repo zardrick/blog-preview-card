@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub Repository](https://github.com/zardrick/blog-preview-card)
-- Live Site URL: [Live Demo](https://zardrick.github.io/blog-preview-card/)
+- Live Site URL: [Live Demo](https://zardrick-blog-preview-card.netlify.app/)
 
 ## My process
 
